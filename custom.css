@@ -1,0 +1,462 @@
+body {
+	margin: 0;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.btn {
+	box-shadow: 2px 2px 2.5px #000;
+}
+.btn:hover {
+	color: #a9a9a9;
+}
+/* FORM FILES */
+.game_name {
+	display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 4vw;
+	font-family: Lobster;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	color: #009900;
+	text-shadow: 1px 1px 3px black;
+}
+.game_name:hover {
+	text-decoration: none;
+	color: #008000;
+}
+.avatar_img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6%;
+	margin-bottom: 4%;
+}
+.log_panel {
+	background-color: rgba(255, 255, 255,.8);
+	display: block;
+	width: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+.form_heading {
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 1.7vw;
+	padding: 12px 0px;
+	border-bottom: 1.5px solid #008000;
+}
+input[type=text], input[type=password] {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	color: #008000;
+	border: 1px solid #008000;
+	font-weight: bold;
+}
+.form_label {
+	display: block;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-top: 8%;
+}
+.btn_log {
+	width: 30%;
+	border-radius: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+	background-color: #008000;
+	color: #fff;
+	margin-bottom: 1%;
+}
+.sign_up_link {
+	color: #008000;
+	text-decoration: underline;
+	padding: 0px;
+	font-size: 1.1vw;
+	box-shadow: none;
+	font-weight: bold;
+	margin-top: -3px;
+}
+.sign_up_link:hover {
+	color: #000 !important;
+}
+.error_text {
+	text-align: center;
+	color: #e60000;
+	font-family: Calibri;
+	font-size: 1.4vw;
+	margin-top: 4.5%;
+	margin-bottom: -4%;
+}
+/* SIGN UP */
+.btn_back {
+	border-radius: 25px;
+	width: 75px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.4vw;
+	font-family: Calibri;
+	position: fixed;
+	top: 3%;
+	left: 2.5%;
+	background-color: #008000;
+	color: #fff;
+	box-shadow: 1px 1px 3px black;
+}
+/* DO YOU CONTINUE */
+.btn_continue_yes {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 8px;
+}
+.btn_continue_no {
+	width: 50%;
+	margin-bottom: 5%;
+	padding: 8px;
+}
+.text_under_log_btn {
+	text-align: center;
+	padding: 16px 0px;
+	color: #008000;
+	display: block;
+	font-weight: bold;
+}
+/* IT-VILLAGE */
+.nav {
+	background-color: rgba(255, 255, 255,.85);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	height: 57px;
+	box-shadow: 0px 0px 30px rgb(255, 255, 255);
+	border-bottom: 3px solid #008000;
+	box-shadow: 0px 0px 20px #fff;
+}
+.nav_game_name {
+	color: #008000;
+	font-family: Lobster;
+	font-size: 2.6vw;
+	text-shadow: 0.5px 0.5px 1px #000;
+	margin-left: 2%;
+	display: inline;
+}
+.user_to_game_name {
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 1.6vw;
+	color: #a9a9a9;
+	margin-left: 5px;
+	display: inline;
+	text-shadow: 1.5px 1px 1px black;
+}
+.nav_container {
+	display: inline;
+	float: right;
+}
+.nav_label {
+	font-weight: bold;
+	font-family: Calibri;
+	font-size: 1.4vw;
+	color: #008000;
+	float: right;
+	margin-top: 14px;
+	margin-right: 12px;
+}
+.value_in_nav {
+	font-weight: bold;
+	color: #000;
+	font-size: 1.4vw;
+	padding: 1.5px;
+	float: right;
+	width: 90px;
+	border-radius: 25px;
+	border: 1.5px solid #008000;
+	text-align: center;
+	margin-top: 12px;
+	background-color: rgba(0, 128, 0,.15);
+	margin-right: 60px;
+}
+.btn_save, .btn_quit {
+	background-color: #008000;
+	color: #fff;
+	border-radius: 25px;
+	width: 70px;
+	margin-top: 10px;
+	margin-right: 12px;
+}
+/* USERS PANEL */
+.users_panel {
+	background-color: rgba(255, 255, 255,.85);
+	box-shadow: 0px 0px 30px #fff;
+	border-radius: 20px;
+	border: 1.5px solid #008000;
+	width: 27%;
+	position: absolute;
+	bottom: 3%;
+	left: 2%;
+	top: 15%;
+	overflow: auto;
+}
+.no_label, .username_label, .total_games_label, .victories_label {
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: right;
+}
+.no_label {
+	width: 11%;
+}
+.username_label {
+	width: 30%;
+}
+.total_games_label {
+	width: 32%;
+}
+.victories_label {
+	width: 20%;
+}
+.my_info_row {
+	background-color: #008000;
+	width: 93%;
+	border: 1px solid #008000;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	margin-top: 4%;
+	padding: 5px 0px;
+}
+.my_no {
+	width: 8%;
+	border-right: 1px solid #fff;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+}
+.my_username {
+	color: #fff;
+	width: 54%;
+	text-align: center;
+	display: inline-block;
+}
+.my_total_games {
+	background-color: rgba(255, 255, 255,.7);
+	color: #000;
+	font-weight: bold;
+	width: 14.5%;
+	text-align: center;
+	display: inline;
+	border-radius: 25px;
+	float: right;
+	margin-left: 1%;
+}
+.my_victories {
+	background-color: rgba(255, 255, 255,.7);
+	color: #000;
+	font-weight: bold;
+	width: 14.5%;
+	text-align: center;
+	display: inline;
+	border-radius: 25px;
+	float: right;
+	margin-left: 4%;
+	margin-right: 2%;
+}
+.btn_show_all_users {
+	color: #008000;
+	display: block;
+	float: right;
+	text-decoration: underline;
+	box-shadow: none;
+}
+.btn_show_all_users:hover {
+	color: #000 !important;
+}
+.users_panel hr {
+	width: 100%;
+	color: #008000;
+	height: 2px;
+	background-color: #008000;
+	margin-bottom: 3.3%;
+}
+.user_info_row {
+	width: 93%;
+	border: 1px solid #008000;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	margin-bottom: 3.5%;
+	padding: 5px 0px;
+	background-color: rgba(0, 128, 0,.2);
+}
+.user_no {
+	width: 8%;
+	border-right: 1px solid #008000;
+	display: inline-block;
+	text-align: center;
+	padding: 0px 5px;
+}
+.user_username {
+	width: 56%;
+	text-align: center;
+	display: inline-block;
+}
+.user_total_games {
+	width: 14.5%;
+	text-align: center;
+	display: inline;
+	border-radius: 25px;
+	float: right;
+	background-color: #008000;
+	color: #fff;
+	margin-left: 1%;
+}
+.user_victories {
+	width: 14.5%;
+	text-align: center;
+	display: inline;
+	border-radius: 25px;
+	float: right;
+	background-color: #008000;
+	color: #fff;
+	margin-left: 4%;
+	margin-right: 2%;
+}
+/* EVENT PANEL */
+.event_panel {
+	width: 48%;
+	position: absolute;
+	right: 21%;
+	bottom: 3%;
+}
+.event_label {
+	margin-bottom: 2.5%;
+	font-family: Algerian;
+	color: #fff;
+	font-size: 1.6vw;
+	font-weight: bold;
+	margin-left: 2%;
+	text-decoration: underline;
+	text-shadow: 1.5px 1.5px 2px #000;
+}
+.event_window {
+	background-color: rgba(255, 255, 255,.85);
+	width: 100%;
+	height: 150px;
+	box-shadow: 0px 0px 30px #fff;
+	border-radius: 20px;
+	border: 1.5px solid #008000;
+	font-family: Algerian;
+	font-size: 1.6vw;
+	padding: 15px 18px;
+	overflow: auto;
+}
+.green {
+	color: #008000;
+}
+.red {
+	color: #f00;
+}
+.underline {
+	text-decoration: underline;
+}
+.btn_new_game {
+	background-color: #008000;
+	border-radius: 25px;
+	display: block;
+	width: 22%;
+	position: absolute;
+	left: 39%;
+	bottom: 10%;
+	color: #fff;
+	font-size: 1.3vw;
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 5px #000;
+}
+/* DICE PANEL */
+.dice_panel {
+	position: absolute;
+	right: 2%;
+	bottom: 3%;
+	width: 17%;
+	border: 1.5px solid #008000;
+	background-color: rgba(255, 255, 255,.85);
+	border-radius: 20px;
+	box-shadow: 0px 0px 30px #fff;
+}
+.btn_throw_dice {
+	border-radius: 25px;
+	background-color: #008000;
+	color: #fff;
+	width: 77%;
+	font-weight: bold;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6%;
+	margin-bottom: 0;
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 15px #404040;
+}
+.dice_img_area {
+	height: 200px;
+	margin-top: 5%;
+}
+.dice_img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* GAME PANEL */
+.game_panel {
+	display: block;
+	position: absolute;
+	margin-left: 44%;
+	text-align: center;
+	bottom: 30.5%;
+	box-shadow: 0px 0px 15px #fff;
+}
+td {
+	width: 97px;
+	height: 97px;
+	font-size: 3.8vw;
+	color: #008000;
+	text-shadow: 1px 1px 5px #000;
+	border: 3.5px solid #008000;
+	background-color: rgba(255, 255, 255,.7);
+}
+.middle_td {
+	border: none;
+	background-color: transparent;
+	box-shadow: none;
+}
+.small_font_vso {
+	font-size: 2.5vw;
+}
+.small_font_x10 {
+	font-size: 3vw;
+}
+.current_td {
+	background-color: rgba(0, 128, 0,.8);
+}
